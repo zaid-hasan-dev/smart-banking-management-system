@@ -1,0 +1,12 @@
+target/
+.tools/
+.idea/
+.vscode/
+*.class
+*.log
+*.tmp
+hs_err_pid*
+replay_pid*
+
+# Local database/server files
+*.sql.bak

@@ -1,0 +1,127 @@
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #111827;
+}
+
+.auth-root {
+    -fx-background-color: linear-gradient(to bottom right, #0f172a, #172554);
+}
+
+.auth-panel {
+    -fx-background-color: #111827;
+    -fx-background-radius: 8;
+    -fx-padding: 34;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 24, 0, 0, 8);
+}
+
+.auth-title, .page-title {
+    -fx-text-fill: #f8fafc;
+    -fx-font-size: 28px;
+    -fx-font-weight: 700;
+}
+
+.muted {
+    -fx-text-fill: #94a3b8;
+}
+
+.sidebar {
+    -fx-background-color: #0f172a;
+    -fx-padding: 22;
+}
+
+.brand {
+    -fx-text-fill: #f8fafc;
+    -fx-font-size: 24px;
+    -fx-font-weight: 800;
+}
+
+.profile {
+    -fx-text-fill: #cbd5e1;
+    -fx-padding: 10 0 18 0;
+}
+
+.page {
+    -fx-background-color: #111827;
+}
+
+.card {
+    -fx-background-color: #1f2937;
+    -fx-background-radius: 8;
+    -fx-padding: 16;
+}
+
+.card-value {
+    -fx-text-fill: #f8fafc;
+    -fx-font-size: 22px;
+    -fx-font-weight: 700;
+}
+
+.section-title {
+    -fx-text-fill: #e5e7eb;
+    -fx-font-size: 16px;
+    -fx-font-weight: 600;
+}
+
+.primary-button, .button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 6;
+    -fx-padding: 9 14;
+}
+
+.button:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #cbd5e1;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 11 14;
+    -fx-background-radius: 6;
+}
+
+.nav-button:hover {
+    -fx-background-color: #1e293b;
+    -fx-text-fill: #ffffff;
+}
+
+.text-field, .password-field, .combo-box, .date-picker {
+    -fx-background-color: #1f2937;
+    -fx-text-fill: #f8fafc;
+    -fx-prompt-text-fill: #94a3b8;
+    -fx-background-radius: 6;
+    -fx-border-color: #334155;
+    -fx-border-radius: 6;
+}
+
+.toolbar {
+    -fx-padding: 8 0;
+}
+
+.table-view {
+    -fx-background-color: #1f2937;
+    -fx-background-radius: 8;
+}
+
+.table-view .column-header-background,
+.table-view .column-header {
+    -fx-background-color: #0f172a;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #f8fafc;
+}
+
+.table-row-cell {
+    -fx-background-color: #1f2937;
+    -fx-text-fill: #f8fafc;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #243244;
+}
+
+.chart-title, .axis-label {
+    -fx-text-fill: #f8fafc;
+}
