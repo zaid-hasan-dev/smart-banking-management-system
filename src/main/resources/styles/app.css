@@ -1,6 +1,11 @@
 .root {
     -fx-font-family: "Segoe UI";
     -fx-background-color: #111827;
+    -fx-text-fill: #f8fafc;
+}
+
+.label {
+    -fx-text-fill: #f8fafc;
 }
 
 .auth-root {
@@ -95,6 +100,42 @@
     -fx-border-radius: 6;
 }
 
+.text-field .text,
+.password-field .text,
+.combo-box .list-cell,
+.combo-box .text,
+.date-picker .text-field,
+.date-picker .text-field .text {
+    -fx-fill: #f8fafc;
+    -fx-text-fill: #f8fafc;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #111827;
+    -fx-border-color: #334155;
+}
+
+.combo-box-popup .list-cell {
+    -fx-background-color: #111827;
+    -fx-text-fill: #f8fafc;
+    -fx-padding: 8 12;
+}
+
+.combo-box-popup .list-cell:hover,
+.combo-box-popup .list-cell:selected {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: #ffffff;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #f8fafc;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: #2563eb;
+    -fx-background-radius: 0 6 6 0;
+}
+
 .toolbar {
     -fx-padding: 8 0;
 }
@@ -102,6 +143,7 @@
 .table-view {
     -fx-background-color: #1f2937;
     -fx-background-radius: 8;
+    -fx-text-fill: #f8fafc;
 }
 
 .table-view .column-header-background,
@@ -122,6 +164,29 @@
     -fx-background-color: #243244;
 }
 
+.table-cell {
+    -fx-text-fill: #f8fafc;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #2563eb;
+}
+
+.table-row-cell:selected .table-cell {
+    -fx-text-fill: #ffffff;
+}
+
 .chart-title, .axis-label {
     -fx-text-fill: #f8fafc;
+}
+
+.chart-pie-label,
+.chart-legend-item,
+.axis,
+.axis .tick-label {
+    -fx-text-fill: #f8fafc;
+}
+
+.chart-legend {
+    -fx-background-color: transparent;
 }
